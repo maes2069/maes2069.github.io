@@ -8,58 +8,106 @@
             font-family: helvetica; 
         }
         
+        /* The sidebar menu */
+        .sidenav {
+          height: 100%; 
+          width: 160px; 
+          position: fixed; 
+          z-index: 1; 
+          top: 0; 
+          left: 0;
+          background-color: #111; 
+          overflow-x: hidden; 
+          padding-top: 20px;
+        }
+
+        /* The navigation menu links */
+        .sidenav a {
+          padding: 6px 8px 6px 16px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #818181;
+          display: block;
+        }
+
+        /* When you mouse over the navigation links, change their color */
+        .sidenav a:hover {
+          color: #f1f1f1;
+        }
+
+        /* Style page content */
+        .main {
+          margin-left: 160px; /* Same as the width of the sidebar */
+          padding: 0px 10px;
+        }
+
+        /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
         
     </style>
   </head>
     
   <body>
-    
+      
+    <!-- Side navigation -->
+    <div class="sidenav">
+      <a href="index.html">Proposal</a>
+      <a href="menu/weeklyupdates.html">Weekly Updates</a>
+      <a href="menu/capstone.html">Capstone Project</a>
+    </div>  
+
+    <!-- Page content -->
+    <div class="main">
+        
     <h1>Project Proposal: Learning Java</h1>
       
     <h2>Vision statement</h2>
-    <p>I will take a self-guided online Java course that includes a capstone project in order to expand my programming knowledge by learning a new language not covered in this program.</p>
+        <p>I will take a self-guided online Java course that includes a capstone project in order to expand my programming knowledge by learning a new language not covered in this program.</p>
 
-    <p><b>Udemy Course:</b> <a href="https://www.udemy.com/course/java-for-dummies-with-handson-program-and-capstone-project/">Java for Beginners with Handson Program and Capstone Project</a></p>
+        <p><b>Udemy Course:</b> <a href="https://www.udemy.com/course/java-for-dummies-with-handson-program-and-capstone-project/">Java for Beginners with Handson Program and Capstone Project</a></p>
 
-    <p><b>Course Description:</b> This course is developed for complete beginners who want to learn Java Programming concepts and get started with Programming with Java. In this course, every concept is explained with examples and notes and the concept is also explained via Handson Program with comments alongside the code explaining the concept.</p>
+        <p><b>Course Description:</b> This course is developed for complete beginners who want to learn Java Programming concepts and get started with Programming with Java. In this course, every concept is explained with examples and notes and the concept is also explained via Handson Program with comments alongside the code explaining the concept.</p>
 
-    <p>This course also has a Real World Project that helps you combine all the concepts that you have learned and teaches you how to apply those concepts to a project. Along with code, you will learn to debug and also learn lots of best practices that you should follow while developing Industry grade projects.</p>
+        <p>This course also has a Real World Project that helps you combine all the concepts that you have learned and teaches you how to apply those concepts to a project. Along with code, you will learn to debug and also learn lots of best practices that you should follow while developing Industry grade projects.</p>
 
-    <p>You will get notes with documents explaining all concepts along with that you will also get source code for Handson Programs and the Real World Project.</p>
+        <p>You will get notes with documents explaining all concepts along with that you will also get source code for Handson Programs and the Real World Project.</p>
 
     <h2>Motivation</h2>
-    <p>This project is important to me because Java is one of the most widely used programming languages and having experience with this language would expand the number of roles I am qualified for.</p>
+        <p>This project is important to me because Java is one of the most widely used programming languages and having experience with this language would expand the number of roles I am qualified for.</p>
 
     <h2>Specific and measurable goals (learning objectives)</h2>
-    <p>This self guided course has 11 sections, totaling 12 hours of lectures. For weekly deliverables I will submit a brief summary of work completed along with the code that was written during the corresponding week's coursework.</p>
-    <ol type="1">
-        <li>Introduction, Installation and Environment Setup [51m]</li>
-        <li>Basic Constructs of Java Programming [1hr 16m]</li>
-        <li>Object and Classes [4m]</li>
-        <li>Polymorphism, Inheritance, Abstraction, Encapsulation [1hr 26m]</li>
-        <li>Array, Static, Final, Interface [1hr 17m]</li>
-        <li>Wrapper Class, String, StringBuilder, Access Modifier [1hr 27m]</li>
-        <li>Collection Framework and Generics [52m]</li>
-        <li>Exception and Exception Handling [55m]</li>
-        <li>Multithreading, Synchronization, and Garbage Collection [33m]</li>
-        <li>File Handling, Serialization and Deserialization [39m]</li>
-        <li>Capstone Project Development - Create a Bookstore App [2hr 16m]</li>
-    </ol>
+        <p>This self guided course has 11 sections, totaling 12 hours of lectures. For weekly deliverables I will submit a brief summary of work completed along with the code that was written during the corresponding week's coursework.</p>
+        <ol type="1">
+            <li>Introduction, Installation and Environment Setup [51m]</li>
+            <li>Basic Constructs of Java Programming [1hr 16m]</li>
+            <li>Object and Classes [4m]</li>
+            <li>Polymorphism, Inheritance, Abstraction, Encapsulation [1hr 26m]</li>
+            <li>Array, Static, Final, Interface [1hr 17m]</li>
+            <li>Wrapper Class, String, StringBuilder, Access Modifier [1hr 27m]</li>
+            <li>Collection Framework and Generics [52m]</li>
+            <li>Exception and Exception Handling [55m]</li>
+            <li>Multithreading, Synchronization, and Garbage Collection [33m]</li>
+            <li>File Handling, Serialization and Deserialization [39m]</li>
+            <li>Capstone Project Development - Create a Bookstore App [2hr 16m]</li>
+        </ol>
         
     <h2>Risks to project completion</h2>
-    <p>I have no prior experience coding in Java, this poses a potential risk by extending the length of time it may take to complete the capstone project.</p>
+        <p>I have no prior experience coding in Java, this poses a potential risk by extending the length of time it may take to complete the capstone project.</p>
 
     <h2>Mitigation Strategy</h2>
-    <p>I have opted for a smaller course with shorter video lectures so that I can dedicate more time to practicing the language and focusing on the capstone project.</p>
+        <p>I have opted for a smaller course with shorter video lectures so that I can dedicate more time to practicing the language and focusing on the capstone project.</p>
 
     <h2>Project Assessments</h2>
         <p><b>Evaluation Criteria:</b></p>
-    <ol type="1">
-        <li>Watch all lectures and complete all course material.</li>
-        <li>Complete the Capstone Project to build a Bookstore App.</li>
-        <li>Provide a demo or overview of the completed project.</li>
-    </ol>
- 
+        <ol type="1">
+            <li>Watch all lectures and complete all course material.</li>
+            <li>Complete the Capstone Project to build a Bookstore App.</li>
+            <li>Provide a demo or overview of the completed project.</li>
+        </ol>
+    </div>
       
   </body>
 </html>
