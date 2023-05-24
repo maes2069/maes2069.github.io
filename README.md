@@ -2,7 +2,9 @@
 
 ## Vision statement  
 I will take a self-guided online Java course that includes a capstone project in order to expand my programming knowledge by learning a new language not covered in this program.  
+
 **Udemy Course:** [*Java for Beginners with Handson Program and Capstone Project*](https://www.udemy.com/course/java-for-dummies-with-handson-program-and-capstone-project/)  
+
 **Course Description:**  
 This course is developed for complete beginners who want to learn Java Programming concepts and get started with Programming with Java. In this course, every concept is explained with examples and notes and the concept is also explained via Handson Program with comments alongside the code explaining the concept.   
 
